@@ -1,3 +1,3 @@
-FROM bitnami/tomcat:latest
-
-COPY target/docker-java-sample-webapp-1.0-SNAPSHOT.war /bitnami/tomcat/data/
+FROM tomcat
+COPY Hello.war /usr/local/tomcat/webapps
+CMD ["catalina.sh", "run"]
