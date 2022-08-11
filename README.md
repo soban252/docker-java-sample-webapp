@@ -61,7 +61,7 @@ docker-java-sample-webapp
 
 - Use docker edge channel. It has inbuilt kubernetes support.
 
-- To get kubernetes dashboard running
+- To get kubernetes dashboard running and up
 
 - `kubectl cluster-info`
 - `kubectl -n kube-system edit service kubernetes-dashboard`
