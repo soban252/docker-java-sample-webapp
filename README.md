@@ -64,7 +64,7 @@ docker-java-sample-webapp
 - To get kubernetes dashboard running and up
 
 - `kubectl cluster-info`
-- `kubectl -n kube-system edit service kubernetes-dashboard`
+- `kubectl -n kube-system edit service kubernetes-dashboard` dkdsds
 - `You should see yaml representation of the service. Change type: ClusterIP to type: NodePort and save file. If it's already changed go to next step.`
 - `kubectl -n kube-system get service kubernetes-dashboard`
 
