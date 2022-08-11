@@ -73,7 +73,7 @@ docker-java-sample-webapp
 - Use helm 2.8.2
 - `helm.exe install .`
 
-- To delete entire deployment
+- To delete entire deployment for docker
 - `kubectl delete deployment kissing-fish-java-sample-webapp`
 
 
