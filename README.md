@@ -3,7 +3,7 @@ docker-java-sample-webapp
 
 ## Getting started
 
-- Build the java app
+- Build the java app1
 
 `mvn clean install`
 
