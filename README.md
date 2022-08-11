@@ -17,7 +17,7 @@ docker-java-sample-webapp
 
 `docker build -t tomcat:1 .`
 
-- Run the image inside a container
+- Run the image inside a containers
 
 `docker container run -p 8080:8080 tomcat:1`
 
